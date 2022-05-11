@@ -1,12 +1,3 @@
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-    Title = "Script Creator By",
-    Text = "GhostPlayer",
-    Icon = "rbxassetid://29819383",
-    Duration = 10,
-})
-
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
 local PhantomForcesWindow = Library:NewWindow("RTX")
